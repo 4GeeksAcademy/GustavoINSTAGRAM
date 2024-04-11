@@ -1,112 +1,95 @@
 i {
+    display: flex;
+    margin-left: 10px;
     font-size: 1.6rem;
-    padding: 1%;
-    margin: 1%;
-    border: 1px; 
     justify-content: center;
-   
+    padding: 5px;
       
 }
+
 .container1 {
-    content: flex;
-    padding: 1px;
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
     background: white;
     color: black; 
-    position: absolute;
-    right: 23%;
-    margin: 34%;
-    top: 76px;
-    
-   
+    font-size: 1.6rem;
+    align-content: stretch;
          
   }
-
 .container2 {
-    content: flex;
+    display: flex;
+    background: white;
+    color: black; 
+    align-items: flex-end;
+    justify-content: flex-end;
     padding: 10px;
-    justify-content: center;
-    background: white;
-    color: black; 
-    position: absolute;
-    right: 4%;
-    margin: 33%;
-    top: 75px;
-    font-size: 1px;
-
+    margin-top: -60px;
   
+    
+   
   }
+
 .container3 {
-    content: flex;
-    padding: 0px;
+    display: flex;
     justify-content: center;
     background: white;
     color: black; 
-    z-index: 1;
+    align-items: center;
+  
   }
 
 .container4 {
-    content: flex;
-    padding: 10px;
-    justify-content: center;
-    background: white;
-    color: black; 
-    position: absolute;
-    right: 4%;
-    margin: 33%;
-    top: 643px;
-    font-size: 10px;
-  }
-
-.container5 {
-    content: flex;
-    padding: 11px;
-    justify-content: center;
-    background: white;
-    color: black; 
+  display: flex;
+  justify-content: start;
+  background: white;
+  color: black; 
+  align-items: start;
 
 }
-.container6
+.container5
 {
-    content: flex;
-    padding: 8px;
-    justify-content: center;
-    background: white;
-    color: black; 
-
-   
-   
+  display: flex;
+  background: white;
+  color: black; 
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 10px;
+  margin-top: -40px;
+     
 }
-    
+ 
+.container6 {
+  display: flex;
+  justify-content: center;
+  background: white;
+  color: black; 
+  align-items: center;
+
+}
+
 body {
-    
-    float: inline-start;
-    text-align: justify;
+           
     background-color: black;
     color: white;
-    padding: 680px
+    margin: 36%;
+    padding: 5px;
+         
 }
 
 h1 {
-    font-size: 12px;
-    padding: 10px;
-    position: absolute;
-    right: 56%;
-    top: 78%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  
 }
 
 h2 {
-    font-size: 14px;
-    padding: 10px;
-    position: absolute;
-    right: 56%;
-    top: 75%;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
 
-p {
-   
-    font-size: 15px;
-    justify-content: center;
-    
-  }
   
+  }
+p {
+  text-align: justify;
+}
